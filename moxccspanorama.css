@@ -10,7 +10,6 @@ body {
   background-color: black;
 }
 #navegacionprincipal {
-  color: green;
   background-color: black;
   float: left;
   margin-top: 40px;
@@ -21,4 +20,15 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+
+#animacion {
+  -webkit-transition: -webkit-transform 1s ease 0.5;
+
+
+}
+
+#animacion:hover {
+  -webkit-transform: translate(2px, -2px)
+  
 }
