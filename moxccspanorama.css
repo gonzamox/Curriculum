@@ -24,11 +24,14 @@ body {
 
 #animacion {
   -webkit-transition: -webkit-transform 1s ease 0.5;
-
-
+  -ms-transition: -ms-transform 1s ease 0.5;
+  -moz-transition: -moz-transform 1s ease 0.5;
+  -o-transition: -o-transform 1s ease 0.5;
 }
 
 #animacion:hover {
-  -webkit-transform: translate(2px, -2px)
-  
+  -webkit-transform: translate(2px, -2px);
+  -o-transform: translate(2px, -2px);
+  -moz-transform: translate(2px, -2px);
+  -ms-transform: translate(2px, -2px)
 }
